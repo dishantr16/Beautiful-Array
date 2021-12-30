@@ -1,4 +1,4 @@
-for tc in range(int(input())):
+for _ in range(int(input())):
     n = int(input())
     ls = list(map(int, input().split()))
     if (0 in ls) or (1 in ls):
@@ -7,7 +7,7 @@ for tc in range(int(input())):
         p = 1
         for x in ls:
             p *=x
-        
+
         flag = 0
         for y in ls:
             a = y
